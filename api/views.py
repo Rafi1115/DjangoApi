@@ -24,7 +24,7 @@ from django.db.models import Q
 class ProductSearchAPIView(APIView):
     def post(self, resquest, format=None):
         data = self.request.data
-        str = data['str']
+        str = data['name']
         q = (Q(name__icontains=str))
         queryset = Product.objects.all()
         queryset = queryset.filter(q)
