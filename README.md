@@ -1,4 +1,4 @@
-# DjangoApi
+# inventory-Api
 
 To run this app on your local machine you can simply follow the instructions given below.
 
