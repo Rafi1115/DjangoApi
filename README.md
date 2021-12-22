@@ -22,7 +22,11 @@ To run server :
 
 After starting server go to your web browser and visit
 
-`http://127.0.0.1:8000/core/lodolist/`
+`http://127.0.0.1:8000/inventory/`
+
+for api
+
+`http://127.0.0.1:8000/api/inventory/`
 
 and for admin module visit
 
